@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { About ,Footer, Header,Skills ,Work} from './container';
-// Testimonial, 
+ 
 
 import {Navbar} from './components';
 import './App.scss'
@@ -14,10 +14,12 @@ const App = () => {
       <About />
       <Work />
       <Skills />
-      {/* <Testimonial /> */}
       <Footer />
     </div>
   );
 }
 
 export default App
+
+
+

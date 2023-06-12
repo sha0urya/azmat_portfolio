@@ -34,12 +34,6 @@ const Header = () => (
 
         <div className="tag-cmp app__flex">
           <p className="p-text">App Developer</p>
-          {/* <p className="p-text">A motivated and ambitious Computer Science and Engineering student at IIIT Agartala, I am dedicated to creating innovative solutions. I can tackle complex coding problems with confidence and efficiency because of my strong foundation in CS fundamentals, data structures, and algorithms.
-With expertise in C++, C, Kotlin, and Java, I can approach development projects from a variety of perspectives, enabling me to find creative solutions.
-I have designed and developed a number of impressive Android apps, including Taaza News, Notes App, and Quizzer. These projects demonstrate my expertise in Android development, UI design, and clean architecture using cutting-edge tools such as Jetpack Compose, Retrofit, and Room.
-I am passionate about learning and growing, and I am always looking for new opportunities to apply my skills and broaden my knowledge. As a skilled communicator and collaborator, I work effectively with team members.
-Looking for a talented, motivated developer who is committed to creating impactful solutions? Let's talk about how we can collaborate. Let's connect and discuss how I can help bring your vision to life.
-</p> */}
           <p className="p-text">Freelancer</p>
         </div>
       </div>
@@ -65,7 +59,7 @@ Looking for a talented, motivated developer who is committed to creating impactf
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.flutter, images.redux, images.sass ].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
